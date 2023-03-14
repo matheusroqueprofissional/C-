@@ -11,6 +11,7 @@ int main(){
     while (hr >0 || min>0 || seg>0)
     {
       cout<<"\n"<<hr<<"H "<<min<<"M "<<seg<<"S ";
+      Sleep(1000);
       seg--;
       if(seg<0)
       {
