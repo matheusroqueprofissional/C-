@@ -6,26 +6,28 @@ using namespace std;
 
 int main(){
 
-    int hr = 0, min=0, seg = 0;
+    int hr = 24, min=0, seg = 0;
 
-    while (seg>=0,seg<60)
+    while (hr >0 || min>0 || seg>0)
     {
-       seg ++;
-       Sleep(1000);
-       system("cls");
-       cout<<hr<<":H "<<min<<":M "<<seg<<":S"<<"\n";
-       if(seg==60)
-       {
-       min++;
-       seg = 0;
-       }
-       if(min == 60)
-       {
-        hr++;
-        min =0;
-       }
-
+      cout<<"\n"<<hr<<"H "<<min<<"M "<<seg<<"S ";
+      seg--;
+      if(seg<0)
+      {
+        min--;
+        seg =59;
+      }
+      if(min <0)
+      {
+        hr--;
+        min = 59;
+      }
+       
+       
+        
     }
+    
+    cout<<"\n"<<hr<<"H "<<min<<"M "<<seg<<"S \ntimer finalizado";
     
     
     
