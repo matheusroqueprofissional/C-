@@ -24,6 +24,7 @@ void adicionar(TREENODEPTR *treenodeptr,int valor){
             printf("sem memoria");
     }
     else{
+       
     if(valor<(*treenodeptr)->data)
         adicionar(&((*treenodeptr)->lptr),valor);
     else{
