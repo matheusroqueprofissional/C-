@@ -47,8 +47,19 @@ int WINAPI WinMain(
   if (!RegisterClassEx(&wincl)) return 0;
 
      hwnd = CreateWindowEx(
-      0, szClassName, szTitle, WS_OVERLAPPEDWINDOW, CW_USEDEFAULT,
-      CW_USEDEFAULT, 544, 375, HWND_DESKTOP, NULL, hThisInstance, NULL);
+      0, 
+      szClassName, 
+      szTitle, 
+      WS_OVERLAPPEDWINDOW, 
+      CW_USEDEFAULT,
+      CW_USEDEFAULT, 
+      544, 
+      375, 
+      HWND_DESKTOP, 
+      NULL, 
+      hThisInstance, 
+      NULL
+      );
 
    
 

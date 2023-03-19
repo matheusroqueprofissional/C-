@@ -5,8 +5,11 @@ LRESULT CALLBACK WindowProcedure(HWND, UINT, WPARAM, LPARAM);
 char szClassName[] = "WindowsApp";
 char szTitle[] = "Hello, World!";
 
-int WINAPI WinMain(HINSTANCE hThisInstance, HINSTANCE hPrevInstance,
-                   LPSTR lpszArgument, int nCmdShow) {
+int WINAPI WinMain(
+    HINSTANCE hThisInstance, 
+    HINSTANCE hPrevInstance,
+    LPSTR lpszArgument, 
+    int nCmdShow) {
   HWND hwnd;
   MSG messages;
   WNDCLASSEX wincl;
