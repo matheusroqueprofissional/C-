@@ -37,7 +37,7 @@ int main(){
     switch (escolha)
     {
     case 1:
-        cout<<"insira o a string que deseja traduzir:"<<endl;
+        cout<<"insira o a string que deseja traduzir: (não insira espaços)"<<endl;
         scanf("%s",str);
         cout<<"a string inserida esta correta?"<<endl;
         cout<<str;
@@ -200,264 +200,264 @@ void transformar(char str[]){
         {
 
         case 'a':
-            Beep(500,1000);//.
-            Beep(900,1000);//-
-            cout<< ".-";
+            Beep(500,300);//.
+            Beep(900,300);//-
+            cout<< ".- ";
             break;
         case 'b':
-            Beep(900,1000);
-            Beep(500,1000);
-            Beep(500,1000);
-            Beep(500,1000);
+            Beep(900,300);
+            Beep(500,300);
+            Beep(500,300);
+            Beep(500,300);
 
-            cout<< "-...";
+            cout<< "-... ";
             break;
         case 'c':
-            Beep(900,1000);
-            Beep(500,1000);
-            Beep(900,1000);
-            Beep(500,1000);
-            cout<< "-.-.";
+            Beep(900,300);
+            Beep(500,300);
+            Beep(900,300);
+            Beep(500,300);
+            cout<< "-.-. ";
             break;
         case 'd':
-            Beep(900,1000);
-            Beep(500,1000);
-            Beep(500,1000);
-            cout<< "-..";
+            Beep(900,300);
+            Beep(500,300);
+            Beep(500,300);
+            cout<< "-.. ";
             break;
         case 'e':
-            Beep(500,1000);
-            cout<< ".";
+            Beep(500,300);
+            cout<< ". ";
             break;
         case 'f':
-            Beep(500,1000);
-            Beep(500,1000);
-            Beep(900,1000);
-            Beep(500,1000);
-            cout<< "..-.";
+            Beep(500,300);
+            Beep(500,300);
+            Beep(900,300);
+            Beep(500,300);
+            cout<< "..-. ";
             break;
         case 'g':
-            Beep(900,1000);
-            Beep(900,1000);
-            Beep(500,1000);
-            cout<< "--.";
+            Beep(900,300);
+            Beep(900,300);
+            Beep(500,300);
+            cout<< "--. ";
             break;
         case 'h':
-            Beep(500,1000);
-            Beep(500,1000);
-            Beep(500,1000);
-            Beep(500,1000);
-            cout<< "....";
+            Beep(500,300);
+            Beep(500,300);
+            Beep(500,300);
+            Beep(500,300);
+            cout<< ".... ";
             break;
         case 'i':
-            Beep(500,1000);
-            Beep(500,1000);
-            cout<< "..";
+            Beep(500,300);
+            Beep(500,300);
+            cout<< ".. ";
             break;
         case 'j':
-            Beep(500,1000);
-            Beep(900,1000);
-            Beep(900,1000);
-            Beep(900,1000);
-            cout<< ".---";
+            Beep(500,300);
+            Beep(900,300);
+            Beep(900,300);
+            Beep(900,300);
+            cout<< ".--- ";
             break;
         case 'k':
-            Beep(900,1000);
-            Beep(500,1000);
-            Beep(900,1000);
-            cout<< "-.-";
+            Beep(900,300);
+            Beep(500,300);
+            Beep(900,300);
+            cout<< "-.- ";
             break;
         case 'l':
-            Beep(500,1000);
-            Beep(900,1000);
-            Beep(500,1000);
-            Beep(500,1000);
-            cout<< ".-..";
+            Beep(500,300);
+            Beep(900,300);
+            Beep(500,300);
+            Beep(500,300);
+            cout<< ".-.. ";
             break;
         case 'm':
-            Beep(900,1000);
-            Beep(900,1000);
-            cout<< "--";
+            Beep(900,300);
+            Beep(900,300);
+            cout<< "-- ";
             break;
         case 'n':
-            Beep(900,1000);
-            Beep(500,1000);
-            cout<< "-.";
+            Beep(900,300);
+            Beep(500,300);
+            cout<< "-. ";
             break;
         case 'o':
-            Beep(900,1000);
-            Beep(900,1000);
-            Beep(900,1000);
-            cout<< "---";
+            Beep(900,300);
+            Beep(900,300);
+            Beep(900,300);
+            cout<< "--- ";
             break;
         case 'p':
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-            cout<< ".--.";
+        Beep(500,300);
+        Beep(900,300);
+        Beep(900,300);
+        Beep(500,300);
+            cout<< ".--. ";
             break;
         case 'q':
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-            cout<< "--.-";
+        Beep(900,300);
+        Beep(900,300);
+        Beep(500,300);
+        Beep(900,300);
+            cout<< "--.- ";
             break;
         case 'r':
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-            cout<< ".-.";
+        Beep(500,300);
+        Beep(900,300);
+        Beep(500,300);
+            cout<< ".-. ";
             break;
         case 's':
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-            cout<< "...";
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+            cout<< "... ";
             break;
         case 't':
-        Beep(900,1000);
-            cout<< "-";
+        Beep(900,300);
+            cout<< "- ";
             break;
         case 'u':
-            Beep(500,1000);
-            Beep(500,1000);
-            Beep(900,1000);
-            cout<< "..-";
+            Beep(500,300);
+            Beep(500,300);
+            Beep(900,300);
+            cout<< "..- ";
             break;
         case 'v':
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-            cout<< "...-";
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(900,300);
+            cout<< "...- ";
             break;
         case 'w':
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-            cout<< ".--";
+        Beep(500,300);
+        Beep(900,300);
+        Beep(900,300);
+            cout<< ".-- ";
             break;
         case 'x':
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-            cout<< "-..-";
+        Beep(900,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(900,300);
+            cout<< "-..- ";
             break;
         case 'y':
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-            cout<< "-.--";
+        Beep(900,300);
+        Beep(500,300);
+        Beep(900,300);
+        Beep(900,300);
+            cout<< "-.-- ";
             break;
         case 'z':
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-            cout<< "--..";
+        Beep(900,300);
+        Beep(900,300);
+        Beep(500,300);
+        Beep(500,300);
+            cout<< "--.. ";
             break;
         case '0':
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-            cout<< "-----";
+        Beep(900,300);
+        Beep(900,300);
+        Beep(900,300);
+        Beep(900,300);
+            cout<< "----- ";
             break;
         case '1':
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-            cout<< ".----";
+        Beep(500,300);
+        Beep(900,300);
+        Beep(900,300);
+        Beep(900,300);
+            cout<< ".---- ";
             break;
         case '2':
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-            cout<< "..---";
+        Beep(500,300);
+        Beep(500,300);
+        Beep(900,300);
+        Beep(900,300);
+        Beep(900,300);
+            cout<< "..--- ";
             break;
         case '3':
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-            cout<< "...--";
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(900,300);
+        Beep(900,300);
+            cout<< "...-- ";
             break;
         case '4':
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-            cout<< "....-";
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(900,300);
+            cout<< "....- ";
             break;
         case '5'://5
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
         cout<< ".....";
-            cout << ".....";
+            cout << "..... ";
             break;
         case '6'://6
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(500,1000);
+        Beep(900,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(500,300);
         cout<< "-....";
-            cout << "-....";
+            cout << "-.... ";
             break;
         case '7'://7
-            Beep(900,1000);
-            Beep(900,1000);
-            Beep(500,1000);
-            Beep(500,1000);
-            Beep(500,1000);
-            cout << "--...";
+            Beep(900,300);
+            Beep(900,300);
+            Beep(500,300);
+            Beep(500,300);
+            Beep(500,300);
+            cout << "--... ";
             break;
         case '8'://8
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        cout<< "---..";
+        Beep(900,300);
+        Beep(900,300);
+        Beep(900,300);
+        Beep(500,300);
+        Beep(500,300);
+        cout<< "---.. ";
             break;
         case '9'://9
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-        cout<< "----.";
+        Beep(900,300);
+        Beep(900,300);
+        Beep(900,300);
+        Beep(900,300);
+        Beep(500,300);
+        cout<< "----. ";
             break;
         case '.'://.
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-        cout<< ".-.-.-";
+        Beep(500,300);
+        Beep(900,300);
+        Beep(500,300);
+        Beep(900,300);
+        Beep(500,300);
+        Beep(900,300);
+        cout<< ".-.-.- ";
             break;
         case ','://,
-        Beep(900,1000);
-        Beep(900,1000);
-        Beep(500,1000);
-        Beep(500,1000);
-        Beep(900,1000);
-        Beep(900,1000);
-        cout<< "--..--";
+        Beep(900,300);
+        Beep(900,300);
+        Beep(500,300);
+        Beep(500,300);
+        Beep(900,300);
+        Beep(900,300);
+        cout<< "--..-- ";
             
         }
         contador++;
